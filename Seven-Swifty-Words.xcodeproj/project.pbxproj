@@ -13,6 +13,8 @@
 		893B74FA253443420066BC28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893B74F8253443420066BC28 /* Main.storyboard */; };
 		893B74FC253443490066BC28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893B74FB253443490066BC28 /* Assets.xcassets */; };
 		893B74FF253443490066BC28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893B74FD253443490066BC28 /* LaunchScreen.storyboard */; };
+		893B750A253451B50066BC28 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 893B7508253451B50066BC28 /* level1.txt */; };
+		893B750B253451B50066BC28 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 893B7509253451B50066BC28 /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		893B74FB253443490066BC28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		893B74FE253443490066BC28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		893B7500253443490066BC28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893B7508253451B50066BC28 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		893B7509253451B50066BC28 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				893B74F2253443420066BC28 /* AppDelegate.swift */,
 				893B74F4253443420066BC28 /* SceneDelegate.swift */,
 				893B74F6253443420066BC28 /* ViewController.swift */,
+				893B7508253451B50066BC28 /* level1.txt */,
+				893B7509253451B50066BC28 /* level2.txt */,
 				893B74F8253443420066BC28 /* Main.storyboard */,
 				893B74FB253443490066BC28 /* Assets.xcassets */,
 				893B74FD253443490066BC28 /* LaunchScreen.storyboard */,
@@ -124,7 +130,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				893B750B253451B50066BC28 /* level2.txt in Resources */,
 				893B74FF253443490066BC28 /* LaunchScreen.storyboard in Resources */,
+				893B750A253451B50066BC28 /* level1.txt in Resources */,
 				893B74FC253443490066BC28 /* Assets.xcassets in Resources */,
 				893B74FA253443420066BC28 /* Main.storyboard in Resources */,
 			);
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alexsapsford.Seven-Swifty-Words";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -315,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alexsapsford.Seven-Swifty-Words";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
